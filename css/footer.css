@@ -1,0 +1,22 @@
+footer {
+  margin: 0;
+  background-color: #222222;
+  color: #f8f8f8;
+  & h5 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+.footer-container > .social-icons > a {
+  color: #ffffff;
+}

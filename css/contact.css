@@ -1,0 +1,121 @@
+#contact {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email-container {
+  width: 768px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+
+  transition: box-shadow 0.3s ease;
+}
+
+.email-container:hover {
+  box-shadow: 0 0 15px #c5c5c5;
+}
+#email-icon {
+  font-size: 2rem;
+  color: #00ad82;
+  border: 3px solid #00ad82;
+  border-radius: 50%;
+  padding: 6px;
+  margin-bottom: 30px;
+}
+#email,
+#name,
+#subject,
+#massege {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 400;
+
+  outline-color: #00ad82;
+  outline-width: 1px;
+
+  transition: all 0.3s ease;
+}
+
+#email:hover,
+#name:hover,
+#subject:hover,
+#massege:hover {
+  border: 1px solid #00ad82;
+}
+
+#massege {
+  height: 150px;
+}
+.contact-container {
+  margin: 40px 0 40px 0;
+
+  width: 394px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-container:hover {
+  box-shadow: 0 0 15px #c5c5c5;
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: #5e5e5e;
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  column-gap: 12px;
+
+  width: 100%;
+
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+
+  transition: all 0.3s ease;
+}
+.contact-item:hover {
+  box-shadow: 0 0 15px #c5c5c5;
+}
+
+.contact-item i {
+  font-size: 1.2rem;
+  color: #00ad82;
+}
+
+#contact > .social-icons > a {
+  transition: all 0.3s ease-in-out;
+}
+#contact > .social-icons > a:hover {
+  transform: scale(1.15);
+}
