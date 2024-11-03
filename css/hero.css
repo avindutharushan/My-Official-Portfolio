@@ -98,6 +98,7 @@
   background-color: #0c9775;
 }
 .arrow {
+  width: 30px;
   z-index: 2;
   position: relative;
   left: 50vw;
