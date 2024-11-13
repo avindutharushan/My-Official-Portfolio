@@ -46,6 +46,10 @@
 #about-img2 {
   height: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .overlay {
   height: 250px;

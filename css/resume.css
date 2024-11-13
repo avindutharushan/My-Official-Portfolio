@@ -29,7 +29,9 @@
   border-radius: 100%;
   background-color: #00ad82;
   text-align: center;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Logo > i {
   color: white;
