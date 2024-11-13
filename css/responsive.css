@@ -162,9 +162,7 @@ header > nav > ul {
   #about-text > .social-icons {
     gap: 15px;
   }
-  .about-line {
-    left: 24px;
-  }
+
   /* Services & Skills */
 
   .skill-container {
@@ -328,9 +326,6 @@ header > nav > ul {
 
   #about-text > .social-icons {
     gap: 15px;
-  }
-  .about-line {
-    left: 24px;
   }
 
   .skill-container {
